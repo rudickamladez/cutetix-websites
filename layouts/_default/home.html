@@ -1,0 +1,6 @@
+{{ define "main" }}
+<main class="home">
+    <h1>{{ .Params.title }}</h1>
+    <p>{{ .Params.description | safeHTML }}</p>
+</main>
+{{ end }}
